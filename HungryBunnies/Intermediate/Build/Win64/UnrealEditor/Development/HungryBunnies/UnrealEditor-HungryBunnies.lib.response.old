@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-HungryBunnies.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\HungryBunniesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\Farmer.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\HungryBunnies.init.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\HungryBunniesGameModeBase.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\Tree.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\Farmer.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\HungryBunnies.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\HungryBunniesGameModeBase.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\Tree.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\Default.rc2.res"
+/OUT:"E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\UnrealEditor-HungryBunnies.lib"

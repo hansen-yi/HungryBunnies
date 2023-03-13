@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HungryBunnies",
+			"Path": "E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunnies.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HungryBunniesEditor",
+			"Path": "E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunniesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
