@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal Projects\\HungryBunnies\\HungryBunniesCPP\\Source\\HungryBunniesCPP\\HungryBunniesCPP.Build.cs",
+		"E:\\Unreal Projects\\HungryBunnies\\HungryBunniesCPP\\Source\\HungryBunniesCPP.Target.cs",
+		"E:\\Unreal Projects\\HungryBunnies\\HungryBunniesCPP\\Source\\HungryBunniesCPPEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

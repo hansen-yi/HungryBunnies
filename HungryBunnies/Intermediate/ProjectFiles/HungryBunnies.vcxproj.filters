@@ -27,9 +27,27 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
     <Filter Include="Source\HungryBunnies">
       <UniqueIdentifier>{6A0F366A-A7DC-3B6A-A748-720330EAF2F8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HungryBunnies\Basket.cpp">
+      <Filter>Source\HungryBunnies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HungryBunnies\Basket.h">
+      <Filter>Source\HungryBunnies</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HungryBunnies\Bunny.cpp">
       <Filter>Source\HungryBunnies</Filter>
     </ClCompile>
@@ -40,6 +58,12 @@
       <Filter>Source\HungryBunnies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HungryBunnies\Farmer.h">
+      <Filter>Source\HungryBunnies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HungryBunnies\Global.cpp">
+      <Filter>Source\HungryBunnies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HungryBunnies\Global.h">
       <Filter>Source\HungryBunnies</Filter>
     </ClInclude>
     <None Include="..\..\Source\HungryBunnies\HungryBunnies.Build.cs">

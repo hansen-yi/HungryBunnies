@@ -1,0 +1,28 @@
+﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" HungryBunniesEditor Win64 Development -Project="E:\Unreal Projects\HungryBunnies\HungryBunnies\HungryBunnies.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\CG Admin\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\HungryBunnies).
+  Building HungryBunniesEditor...
+  Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from HungryBunnies unity file: Farmer.cpp, Global.cpp
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+  Building 15 actions with 8 processes...
+  [1/15] Compile Global.gen.cpp
+  [2/15] Compile HungryBunnies.cpp
+  [3/15] Compile Farmer.gen.cpp
+  [4/15] Compile HungryBunniesGameModeBase.gen.cpp
+  [5/15] Compile Bunny.cpp
+  [6/15] Compile Tree.gen.cpp
+  [7/15] Compile Farmer.cpp
+  [8/15] Compile HungryBunniesGameModeBase.cpp
+  [9/15] Compile HungryBunnies.init.gen.cpp
+  [10/15] Compile Global.cpp
+  [11/15] Compile Bunny.gen.cpp
+  [12/15] Compile Tree.cpp
+  [13/15] Link UnrealEditor-HungryBunnies.lib
+     Creating library E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\UnrealEditor-HungryBunnies.lib and object E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\UnrealEditor-HungryBunnies.exp
+  [14/15] Link UnrealEditor-HungryBunnies.dll
+     Creating library E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\UnrealEditor-HungryBunnies.suppressed.lib and object E:\Unreal Projects\HungryBunnies\HungryBunnies\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunnies\UnrealEditor-HungryBunnies.suppressed.exp
+  [15/15] WriteMetadata HungryBunniesEditor.target
+  Total time in Parallel executor: 2.34 seconds
+  Total execution time: 2.78 seconds

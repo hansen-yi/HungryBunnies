@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-HungryBunniesCPP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\HungryBunniesCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\HungryBunniesCPP.init.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\HungryBunniesCPPGameModeBase.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\TestPawn.gen.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\HungryBunniesCPP.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\HungryBunniesCPPGameModeBase.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\TestPawn.cpp.obj"
+"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\Default.rc2.res"
+/OUT:"E:\Unreal Projects\HungryBunnies\HungryBunniesCPP\Intermediate\Build\Win64\UnrealEditor\Development\HungryBunniesCPP\UnrealEditor-HungryBunniesCPP.lib"
