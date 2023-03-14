@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunnies\\HungryBunnies.Build.cs",
-		"E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunnies.Target.cs",
-		"E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunniesEditor.Target.cs"
+		"C:\\Users\\vivit\\Repos\\CIS-568\\hungryBunnies\\HungryBunnies\\Source\\HungryBunnies\\HungryBunnies.Build.cs",
+		"C:\\Users\\vivit\\Repos\\CIS-568\\hungryBunnies\\HungryBunnies\\Source\\HungryBunnies.Target.cs",
+		"C:\\Users\\vivit\\Repos\\CIS-568\\hungryBunnies\\HungryBunnies\\Source\\HungryBunniesEditor.Target.cs"
 	],
 	"EngineVersion": "5.1.1"
 }

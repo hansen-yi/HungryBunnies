@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HungryBunnies",
-			"Path": "E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunnies.Target.cs",
+			"Path": "C:\\Users\\vivit\\Repos\\CIS-568\\hungryBunnies\\HungryBunnies\\Source\\HungryBunnies.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HungryBunniesEditor",
-			"Path": "E:\\Unreal Projects\\HungryBunnies\\HungryBunnies\\Source\\HungryBunniesEditor.Target.cs",
+			"Path": "C:\\Users\\vivit\\Repos\\CIS-568\\hungryBunnies\\HungryBunnies\\Source\\HungryBunniesEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

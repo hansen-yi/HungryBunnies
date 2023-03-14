@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/vivit/Repos/CIS-568/hungryBunnies/HungryBunnies/Content/MainLevel_BuiltData.uasset",
+				"C:/Users/vivit/Repos/CIS-568/hungryBunnies/HungryBunnies/Content/MainLevel.umap",
+				"C:/Users/vivit/Repos/CIS-568/hungryBunnies/HungryBunnies/Content/ScoreUI.uasset",
 				"E:/Unreal Projects/HungryBunnies/HungryBunnies/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"E:/Unreal Projects/HungryBunnies/HungryBunnies/Content/MainLevel.umap",
 				"E:/Unreal Projects/HungryBunnies/HungryBunnies/Content/FarmerBP.uasset",

@@ -15,7 +15,7 @@ ATree::ATree()
 	RootComponent = AsteroidBoxComponent;
 	AsteroidBoxComponent->InitBoxExtent(FVector(12.0f, 15.0f, 12.0f));
 	AsteroidBoxComponent->SetCollisionProfileName(TEXT("BlockAllDynamic"));
-	AsteroidBoxComponent->SetSimulatePhysics(true);
+	AsteroidBoxComponent->SetSimulatePhysics(false);
 	AsteroidBoxComponent->SetEnableGravity(false);
 	AsteroidBoxComponent->SetNotifyRigidBodyCollision(true);
 }
@@ -35,8 +35,9 @@ void ATree::Tick(float DeltaTime)
 }
 
 void ATree::onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit) {
-	/*if (OtherActor && (OtherActor != this) && OtherActor->IsA(AFarmer::StaticClass()))
-	{*/
+	if (OtherActor && (OtherActor != this) && OtherActor->IsA(AFarmer::StaticClass()))
+	{
 		HitDelegate.Execute();
-	//}
+		Destroy();
+	}
 }

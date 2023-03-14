@@ -19,7 +19,7 @@ AFarmer::AFarmer()
 	RootComponent = ShipSphereComponent;
 	ShipSphereComponent->InitSphereRadius(10.0f);
 	ShipSphereComponent->SetCollisionProfileName(TEXT("Pawn"));
-	ShipSphereComponent->SetSimulatePhysics(true);
+	ShipSphereComponent->SetSimulatePhysics(false);
 	ShipSphereComponent->SetEnableGravity(false);
 	ShipSphereComponent->SetLinearDamping(0.3);
 	ShipSphereComponent->SetAngularDamping(1);
@@ -54,7 +54,8 @@ void AFarmer::Move(float AxisValue)
 {
 	//if (AxisValue > 0)
 	//{
-		ShipSphereComponent->AddImpulse(GetActorForwardVector() * AxisValue * 2.0f);
+		// ShipSphereComponent->AddImpulse(GetActorForwardVector() * AxisValue * 2.0f);
+		ShipSphereComponent->AddWorldOffset(GetActorForwardVector() * AxisValue * 2.0f);
 	//}
 }
 void AFarmer::Move_Turn(float AxisValue)
