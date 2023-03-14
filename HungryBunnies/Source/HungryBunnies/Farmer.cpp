@@ -54,7 +54,7 @@ void AFarmer::Move(float AxisValue)
 {
 	//if (AxisValue > 0)
 	//{
-		ShipSphereComponent->AddImpulse(GetActorForwardVector() * AxisValue * 1.0f);
+		ShipSphereComponent->AddImpulse(GetActorForwardVector() * AxisValue * 2.0f);
 	//}
 }
 void AFarmer::Move_Turn(float AxisValue)

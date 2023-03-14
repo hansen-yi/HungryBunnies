@@ -35,8 +35,8 @@ void ATree::Tick(float DeltaTime)
 }
 
 void ATree::onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit) {
-	if (OtherActor && (OtherActor != this) && OtherActor->IsA(AFarmer::StaticClass()))
-	{
+	/*if (OtherActor && (OtherActor != this) && OtherActor->IsA(AFarmer::StaticClass()))
+	{*/
 		HitDelegate.Execute();
-	}
+	//}
 }

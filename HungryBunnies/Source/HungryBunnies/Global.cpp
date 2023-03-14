@@ -43,9 +43,9 @@ void AGlobal::SpawnTrees() {
 			float random2 = (float)rand() / RAND_MAX;*/
 			APlayerController* cam = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 			FVector actorLoc = cam->GetPawn()->GetActorLocation();
-			float xPos = (actorLoc[0] - 120) + 40 * (i % 4);
+			float xPos = (actorLoc[0] - 200) + 40 * (i % 4);
 			float yPos = (actorLoc[1] - 120) + 40 * (i / 4);
-			FVector spawn = FVector(xPos, yPos, -40);
+			FVector spawn = FVector(xPos, yPos, 0);
 			ATree* roid = World->SpawnActor<ATree>(TreeClass, spawn, FRotator(0.f));
 			roid->HitDelegate.BindDynamic(this, &AGlobal::incrementApples);
 		}
