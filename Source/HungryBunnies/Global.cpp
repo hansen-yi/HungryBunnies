@@ -28,7 +28,7 @@ AGlobal::AGlobal()
 void AGlobal::BeginPlay()
 {
 	Super::BeginPlay();
-	GetWorldTimerManager().SetTimer(timerHandle, this, &AGlobal::SpawnBunny, 5.0f, true);
+	//GetWorldTimerManager().SetTimer(timerHandle, this, &AGlobal::SpawnBunny, 5.0f, true);
 	SpawnTrees();
 	CurrentApples = 0;
 	BasketApples = 0;
