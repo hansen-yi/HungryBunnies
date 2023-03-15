@@ -29,7 +29,7 @@ void AGlobal::BeginPlay()
 {
 	Super::BeginPlay();
 	//GetWorldTimerManager().SetTimer(timerHandle, this, &AGlobal::SpawnBunny, 5.0f, true);
-	SpawnTrees();
+	//SpawnTrees();
 	CurrentApples = 0;
 	BasketApples = 0;
 }
